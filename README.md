@@ -6,6 +6,7 @@ Im learning RAG
 - python
 - imports: os, numpy, faiss, OpenAI
 - pip install sentence-transformers faiss-cpu numpy python-dotenv openai
+- you would need an API Key from openrouter to use the LLM
 
 # Organization:
 
