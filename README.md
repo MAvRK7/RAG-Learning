@@ -5,7 +5,7 @@
 - python
 - imports: os, numpy, faiss, OpenAI
 - pip install sentence-transformers faiss-cpu numpy python-dotenv openai
-- you would need an API Key from openrouter to use the LLM
+- you would need an API Key from openrouter to use the LLM. The LLM used here is the nemotron-3-nano-30b-a3b by NVIDIA, but any LLM works
 
 # Organization:
 
