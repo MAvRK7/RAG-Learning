@@ -10,5 +10,5 @@
 # Organization:
 
 1. simple-rag: 
-strictly answers only from docs
+strictly answers only from docs. If query's not in the docs, model says "idk"
 2.  
