@@ -1,5 +1,4 @@
 # RAG-Learning
-Im learning RAG 
 
 # Requirements 
 
