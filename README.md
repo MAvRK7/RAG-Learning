@@ -2,9 +2,9 @@
 
 # Requirements 
 
-'''
+```bash
 pip install sentence-transformers faiss-cpu numpy python-dotenv openai mistralai langgraph langchain
-'''
+```
 
 - python 3 (ive used 3.12)
 - imports: os, numpy, faiss, OpenAI
@@ -17,4 +17,5 @@ pip install sentence-transformers faiss-cpu numpy python-dotenv openai mistralai
 
 1. simple-rag: 
 strictly answers only from docs. If query's not in the docs, model says "idk"
-2.  
+2.  agentic-rag: knows when to retrieve and when to answer
+3.  langgraph-agent: agent control flow using graohs- LangGraph implementation
