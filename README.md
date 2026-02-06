@@ -8,6 +8,7 @@ pip install sentence-transformers faiss-cpu numpy python-dotenv openai mistralai
 .env:
 
 OPENROUTER_API_KEY= "YOUR-OPENROUTER-API-KEY"
+
 MISTRAL_API_KEY = "YOUR-MISTRAL-API-KEY"
 
 - python 3 (ive used 3.12)
