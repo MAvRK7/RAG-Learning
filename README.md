@@ -2,10 +2,16 @@
 
 # Requirements 
 
+'''
+pip install sentence-transformers faiss-cpu numpy python-dotenv openai mistralai langgraph langchain
+'''
+
 - python 3 (ive used 3.12)
 - imports: os, numpy, faiss, OpenAI
-- pip install sentence-transformers faiss-cpu numpy python-dotenv openai
+- pip install sentence-transformers faiss-cpu numpy python-dotenv openai mistralai langgraph langchain
 - you would need an API Key from openrouter to use the LLM. The LLM used here is the nemotron-3-nano-30b-a3b by NVIDIA, but any LLM works
+- Later mistralai has been used as a fall back if openrouter hits the rate-limit
+- LanGraph is used to make agentic application better 
 
 # Organization:
 
