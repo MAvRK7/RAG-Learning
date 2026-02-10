@@ -23,4 +23,4 @@ MISTRAL_API_KEY = "YOUR-MISTRAL-API-KEY"
 1. simple-rag: 
 strictly answers only from docs. If query's not in the docs, model says "idk"
 2.  agentic-rag: knows when to retrieve and when to answer
-3.  langgraph-agent: agent control flow using graohs- LangGraph implementation
+3.  langgraph-agent: agent control flow using graohs- LangGraph implementation. Includes tool use: Open-Meteo (weather API)
